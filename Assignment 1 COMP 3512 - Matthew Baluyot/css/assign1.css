@@ -1,0 +1,135 @@
+body {
+   background-color: black;
+   margin: 10px;
+   box-sizing: border-box;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 400;
+   font-size: 1.2rem;
+}
+
+header {
+   background-color:black;
+   color: white;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-size: 2.2rem;
+   font-weight: 600;
+}
+
+h2 {
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+.container {
+   display: grid;
+   grid-gap: 10px;
+   color: #444;
+}
+
+.box {
+   padding: 20px;
+   border-radius: 5px;
+   background-color: #cdcdcd;
+   color: black;
+}
+
+.a {
+   grid-column: 1;
+   grid-row: 1/span 2;
+}
+
+.b {
+   grid-column: 2;
+   grid-row: 1;
+}
+
+.c {
+   grid-column: 2;
+   grid-row: 2;
+}
+
+.d {
+   grid-column: 3;
+   grid-row: 1/span 2;
+}
+
+.e {
+   grid-column: 1;
+}
+ul#galleryList {
+   list-style-type: none;
+}
+
+div.a section {
+   display: none;
+}
+
+div.b section {
+   display: none;
+}
+
+div.c section {
+   display: none;
+}
+
+div.d section {
+   display: none;
+}
+
+div.e section {
+   display: hidden;
+}
+#map {
+   height: 600px;
+}
+
+h4 {
+   display: inline;
+}
+
+h4 {
+   grid-column: 2;
+}
+
+h4+h4 {
+   grid-column: 3;
+}
+
+h4+h4+h4 {
+   grid-column: 4;
+}
+
+p {
+   display: inline;
+}
+
+#paintingsList>li {
+   list-style-type: none;
+}
+
+.container2 {
+   display: grid;
+}
+
+ul#galleryList > li:nth-child(2n) {
+   background-color: rgba(47,59,64,0.35);
+   color: white;
+}
+
+#closeButton {
+   background-color: #3a6ba5;
+   color: white;
+   border-radius: 5px;
+}
